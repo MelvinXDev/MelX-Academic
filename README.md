@@ -1,20 +1,35 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+MelX : Academic Portfolio Manager
 
-# Run and deploy your AI Studio app
+MelX is an advanced academic portfolio manager. It transforms standard CGPA calculation into a dashboard-style view for managing your academic performance.
 
-This contains everything you need to run your app locally.
+Key Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1_ohRkvUuIO0mHYicjs9CFYsAksRkB0yK
+Dashboard: Visualize performance with trend charts, gauges, and score analysis.
 
-## Run Locally
+AI Strategic Advisor: Analyzes grade trends and generates actionable plans to reach target GPA.
 
-**Prerequisites:**  Node.js
+Transcript Parsing: Upload grade slips,  extracts course codes, titles, credits, and grades.
 
+Resource Scout: Finds textbooks, lectures, and notes for your courses automatically.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Career Projection: Suggests potential career paths based on academic strengths.
+
+Grading Scale Support: Switch easily between 4.0 and 5.0 scales.
+
+Tech Stack
+
+Frontend: React 19, TypeScript, Vite
+
+Styling: Tailwind CSS
+
+AI Integration: Google GenAI SDK (@google/genai)
+
+Visualization: Recharts
+
+Icons: Lucide React
+
+Getting Started?
+
+Clone the repository
+
+Install dependencies
