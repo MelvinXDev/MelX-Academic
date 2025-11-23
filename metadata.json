@@ -1,0 +1,8 @@
+{
+  "name": "MelX Academic",
+  "description": "Premium academic strategist and resource intelligence powered by Gemini 3 Pro.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
