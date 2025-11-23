@@ -17,7 +17,7 @@ export const AnalysisView: React.FC<AnalysisViewProps> = ({ analysis, loading })
         </div>
         <div className="text-center">
           <h3 className="text-xl font-display font-bold text-white mb-2">Processing Data</h3>
-          <p className="text-slate-400 font-mono text-sm">Gemini 3 Pro is computing strategic vectors...</p>
+          <p className="text-slate-400 font-mono text-sm">MelX Neural Engine is computing strategic vectors...</p>
         </div>
       </div>
     );

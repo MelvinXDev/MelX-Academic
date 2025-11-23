@@ -9,7 +9,7 @@ const getAiClient = () => {
 };
 
 /**
- * Uses Gemini Vision (2.5 Flash) to parse an image of a transcript or grade slip.
+ * Uses MelX Vision to parse an image of a transcript or grade slip.
  */
 export const parseTranscriptImage = async (base64Image: string, mimeType: string): Promise<Course[]> => {
   const ai = getAiClient();
@@ -68,7 +68,7 @@ export const parseTranscriptImage = async (base64Image: string, mimeType: string
 };
 
 /**
- * Uses Gemini 3 Pro with Google Search to find study resources.
+ * Uses MelX AI with Search Grounding to find study resources.
  */
 export const findStudyResources = async (courseCode: string, courseTitle: string): Promise<StudyResource[]> => {
   const ai = getAiClient();
@@ -111,7 +111,7 @@ export const findStudyResources = async (courseCode: string, courseTitle: string
 };
 
 /**
- * Uses Gemini 3 Pro to provide advanced academic advice and strategy.
+ * Uses MelX 3.0 Pro to provide advanced academic advice and strategy.
  */
 export const generateAcademicStrategy = async (
   semesters: Semester[], 

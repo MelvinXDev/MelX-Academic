@@ -383,7 +383,7 @@ const App: React.FC = () => {
                     </div>
                     <div>
                       <h3 className="font-bold text-white text-sm">MelX Strategist</h3>
-                      <p className="text-[10px] text-gray-500 font-mono uppercase">Model: Gemini 3 Pro</p>
+                      <p className="text-[10px] text-gray-500 font-mono uppercase">Model: MelX 3.0 Pro</p>
                     </div>
                   </div>
 

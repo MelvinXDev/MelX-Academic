@@ -1,6 +1,6 @@
 {
   "name": "MelX Academic",
-  "description": "Premium academic strategist and resource intelligence powered by Gemini 3 Pro.",
+  "description": "Premium academic strategist and resource intelligence powered by MelX AI.",
   "requestFramePermissions": [
     "camera",
     "microphone"
